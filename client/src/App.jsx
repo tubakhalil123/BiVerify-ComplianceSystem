@@ -17,7 +17,7 @@ import ComplianceVault from "./pages/ClientSide/ComplianceVault.jsx";
 import ServiceRequest from "./pages/ClientSide/ServiceRequest.jsx";
 
 import ProviderDashboard from "./pages/ProviderSide/ServiceProviderDashboard.jsx";
-import ProviderB2BNetwork from "./pages/ProviderSide/ProviderB2BNetwork.jsx";
+import ProviderB2BNetwork from "./pages/ProviderSide/ProviderB2Bnetwork.jsx";
 
 // Client Pages
 import MyTeamClient from "./pages/ClientSide/MyTeam.jsx";
