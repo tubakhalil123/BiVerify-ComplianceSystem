@@ -131,7 +131,7 @@ const KpiSkeleton = () => (
 //  HELPERS
 // ─────────────────────────────────────────────────────────────────────────────
 
-<<<<<<< HEAD
+
 // QR Verifications: grouped bars per quarter (Q1–Q4) per year
 const scanYearGroups = [
   { year: "2023 Q1", bars: [28, 18] },
@@ -179,7 +179,7 @@ const NAV_SECTIONS = [
     { id: "settings", icon: "settings", label: "Settings"         },
   ]},
 ];
-=======
+
 /** Turn the /stats response into the 4 KPI card descriptors the template uses. */
 function buildKpiCards(stats) {
   if (!stats) return [];
@@ -223,7 +223,7 @@ function buildKpiCards(stats) {
     },
   ];
 }
->>>>>>> origin/develop
+
 
 // ─────────────────────────────────────────────────────────────────────────────
 //  MAIN COMPONENT
