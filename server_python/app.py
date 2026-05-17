@@ -6,9 +6,7 @@ from routes.location_routes import bp as location_bp
 from routes.booking_routes import bp as booking_bp
 from routes.scan_routes import bp as scan_bp
 from routes.team_routes import bp as team_bp
-<<<<<<< HEAD
 from routes.compliance_routes import bp as compliance_bp
-=======
 from routes.service_request_routes import bp as service_request_bp
 from routes.compliance_operations_routes import bp as compliance_ops_bp
 from routes.admin_dashboard_routes import bp as admin_dashboard_bp
@@ -16,7 +14,7 @@ from routes.provider_dashboard_routes import bp as provider_dashboard_bp
 from routes.incoming_request_routes import bp as incoming_requests_bp
 from routes.b2b_routes import bp as b2b_bp
 from routes.client_dashboard_routes import bp as client_dashboard_bp
->>>>>>> origin/develop
+
 
 
 def create_app():
