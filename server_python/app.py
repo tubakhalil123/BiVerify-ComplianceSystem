@@ -57,9 +57,9 @@ def create_app():
     app.register_blueprint(booking_bp)
     app.register_blueprint(scan_bp)
     app.register_blueprint(team_bp)
-<<<<<<< HEAD
+
     app.register_blueprint(compliance_bp)
-=======
+
     app.register_blueprint(service_request_bp)
     app.register_blueprint(compliance_ops_bp)
     app.register_blueprint(admin_dashboard_bp)
@@ -67,7 +67,7 @@ def create_app():
     app.register_blueprint(incoming_requests_bp)
     app.register_blueprint(b2b_bp)
     app.register_blueprint(client_dashboard_bp)
->>>>>>> origin/develop
+
 
     # ── Health check ──────────────────────────────────────────────────────────
     @app.get("/api/health")
