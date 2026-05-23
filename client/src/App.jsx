@@ -12,7 +12,7 @@ import ForgotPassword from "./pages/Authentication/ForgotPassword";
 import ApplicationSubmitted from "./pages/Authentication/ApplicationSubmitted";
 
 import ClientDashboard from "./pages/ClientSide/ClientDashboard.jsx";
-import B2BNetwork from "./pages/ClientSide/B2BNetwork.jsx";
+import B2BNetwork from "./pages/ClientSide/B2Bnetwork.jsx";
 import ServiceBookings from "./pages/ClientSide/ServiceBookings.jsx";
 import ComplianceVault from "./pages/ClientSide/ComplianceVault.jsx";
 import ServiceRequest from "./pages/ClientSide/ServiceRequest.jsx";
